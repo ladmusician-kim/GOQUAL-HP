@@ -8,9 +8,9 @@
         <div id="navbar">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">INTRO</a></li>
-                <li><a href="#">CORE</a></li>
-                <li><a href="#">DESIGN</a></li>
-                <li><a href="#">DEVELOPE</a></li>
+                <li><a href="#">일상</a></li>
+                <li><a href="<?php base_url() ?>designer">디자인 블로그</a></li>
+                <li><a href="<?php base_url() ?>developer">개발 블로그</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>

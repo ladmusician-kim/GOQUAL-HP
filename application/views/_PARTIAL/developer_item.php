@@ -3,6 +3,7 @@
 ?>
         <div class="gq-dev-content-item">
             <div class="gq-dev-content-body">
+                <img class="gq-dev-img" src="<?php echo base_url(); ?>static/img/member/dj_profile.png">
                 <div class="gq-dev-content-title">
                     <?php echo $item->title ?>
                 </div>
@@ -15,5 +16,5 @@
             </div>
         </div>
 <?php
-    }Ω
+    }
 ?>
