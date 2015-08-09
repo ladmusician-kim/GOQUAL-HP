@@ -16,4 +16,7 @@
         <div id="gq-dev-content-container" class="row">
         </div>
     </div>
+    <div class="gq-ajax-loader-container text-center">
+        <img class="gq-ajax-loader" src="/static/img/loader.gif" />
+    </div>
 </section>
