@@ -22,7 +22,6 @@ $(document).ready(function () {
                 last_page = data.last_page;
                 total_count = data.total_count;
 
-                console.log(last_page);
             }, function (arg) {
                 console.log(arg);
             }, 'json');
