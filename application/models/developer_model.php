@@ -23,6 +23,7 @@ class Developer_model extends CI_Model {
 
         $this->db->select('developer._developerid, developer.title, developer.summary, developer.updated, user.username');
         $this->db->from('developer');
+        $this->db->where('developer.isdeprecated = false');
         $this->db->join('user', 'user._id = developer.for_userid');
 
         $result = $this->db->get()->result();

@@ -23,6 +23,7 @@ class Designer_model extends CI_Model {
 
         $this->db->select('designer._designerid, designer.title, designer.summary, designer.main_img_uri, designer.updated, user.username');
         $this->db->from('designer');
+        $this->db->where('designer.isdeprecated = false');
         $this->db->join('user', 'user._id = designer.for_userid');
 
         $result = $this->db->get()->result();

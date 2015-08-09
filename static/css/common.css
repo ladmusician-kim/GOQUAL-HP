@@ -61,6 +61,10 @@ div.gq-footer {
 .gq-ajax-loader {
     width: 40px;
 }
+a:hover {
+    cursor: pointer !important;
+    text-decoration: none !important;
+}
 
 
 
