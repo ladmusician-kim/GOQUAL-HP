@@ -12,11 +12,11 @@ class Designer extends GQ_Controller
     {
         $this->load->model('designer_model');
         $page = $this->input->get('page');
-        $per_page = $this->input->get('perPage');
+        $per_page = $this->input->get('per_page');
 
         if ($page === false || $per_page === false) {
             $page = 1;
-            $per_page = 10;
+            $per_page = 9;
         }
 
         $items = $this->designer_model->get_items($page, $per_page);
@@ -24,7 +24,15 @@ class Designer extends GQ_Controller
 
         $last_page = ceil($total_count / $per_page);
 
-        $this->__get_partial_view('_PARTIAL/designer_item',
-            array('items' => $items->return_body, 'page' => $page, 'per_page' => $per_page, 'last_page' => $last_page));
+        $view_data = array('items' => $items->return_body, 'page' => $page, 'per_page' => $per_page, 'last_page' => $last_page);
+        $passe_data = array (
+            'data' => $this->load->view('_PARTIAL/designer_item', $view_data, true),
+            'page' => $page,
+            'per_page' => $per_page,
+            'total_count' => $total_count,
+            'last_page' => $last_page
+        );
+
+        echo json_encode($passe_data);
     }
 }

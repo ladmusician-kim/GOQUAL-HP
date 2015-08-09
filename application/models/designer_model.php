@@ -28,6 +28,7 @@ class Designer_model extends CI_Model {
         $result = $this->db->get()->result();
 
         $base_dto->set_value($result);
+
         return $base_dto;
     }
 }   

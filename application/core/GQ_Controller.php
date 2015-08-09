@@ -26,9 +26,9 @@ class GQ_Controller extends CI_Controller {
         $this->load->view('_Layout/footer.php');
     }
 
-    function __get_partial_view($viewStr, $data=null) {
+    function __get_partial_view($viewStr, $data = null, $is_value = false) {
         if ($data != null) {
-            $this->load->view($viewStr, $data);
+            $this->load->view($viewStr, $data, $is_value);
         } else {
             $this->load->view($viewStr);
         }
