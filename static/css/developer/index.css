@@ -48,13 +48,6 @@
 
 
 /* mobile */
-/* Smartphones ----------- */
-@media only screen and (max-width: 768px) {
-    .gq-dev-main {
-        padding: 50px 0 50px 0;
-        border-bottom: 1px solid #eaeaea;
-    }
-}
 @media only screen and (max-width: 600px) {
     .gq-dev-main {
         padding: 30px 0 30px 0;

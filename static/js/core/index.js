@@ -37,4 +37,6 @@ $(document).ready(function () {
         }
     });
 
+    var window_height = $(window).height();
+    $('.gq-core-content').css('min-height', window_height - 210);
 });
