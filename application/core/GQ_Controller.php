@@ -3,13 +3,6 @@ class GQ_Controller extends CI_Controller {
     function __construct() {
         parent::__construct();
 
-        /*
-                if($peak = $this->config->item('peak_page_cache')){
-                    if($peak == current_url()){
-                        $this->output->cache(5);
-                    }
-                }
-        */
         if(!$this->input->is_cli_request())
             $this->load->library('session');
 
@@ -23,20 +16,6 @@ class GQ_Controller extends CI_Controller {
         }
 
         $this->load->view('_Layout/navbar.php');
-
-        if ($data != null) {
-            $this->load->view($viewStr, $data);
-        } else {
-            $this->load->view($viewStr);
-        }
-
-        $this->load->view('_Layout/footer.php');
-    }
-
-    function __get_mg_views($viewStr, $data = null) {
-        $this->load->view('_Layout/header.php');
-        $this->load->view('_Layout/left_mg_nav.php');
-        $this->load->view('_Layout/profile_navbar.php');
 
         if ($data != null) {
             $this->load->view($viewStr, $data);

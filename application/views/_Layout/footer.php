@@ -8,9 +8,12 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="<?php echo base_url()?>static/js/common.js"></script>
 <script src="/static/lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="/static/js/ajaxBody.js"></script>
 <script src="/static/js/smoothscroll.js"></script>
+
+<script src="<?php echo base_url()?>static/js/common.js"></script>
+
 
 <?php
 $total_url = $_SERVER['PHP_SELF'];
