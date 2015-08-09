@@ -7,8 +7,8 @@
         <!-- Note that the .navbar-collapse and .collapse classes have been removed from the #navbar -->
         <div id="navbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">INTRO</a></li>
-                <li><a href="#">일상</a></li>
+                <li><a href="<?php base_url() ?>home">INTRO</a></li>
+                <li><a href="<?php base_url() ?>core">일상</a></li>
                 <li><a href="<?php base_url() ?>designer">디자인 블로그</a></li>
                 <li><a href="<?php base_url() ?>developer">개발 블로그</a></li>
             </ul>

@@ -1,38 +1,38 @@
 /* main */
-.gq-ds-main {
+.gq-core-main {
     padding: 70px;
     border-bottom: 1px solid #eaeaea;
 }
-.gq-ds-main-title {
+.gq-core-main-title {
     font-size: 30px;
 }
-.gq-ds-main-content {
+.gq-core-main-content {
     font-size: 15px;
 }
 
 /* content */
-.gq-ds-content {
+.gq-core-content {
     padding: 60px;
     background: #f5f5f5;
 }
-.gq-ds-content-item {
+.gq-core-content-item {
     display: inline-block;
     margin-bottom: 30px;
 }
-.gq-ds-content-item .gq-ds-content-item-inner {
+.gq-core-content-item .gq-core-content-item-inner {
     background: #ffffff;
 }
-.gq-ds-content-item .gq-ds-content-item-img {
+.gq-core-content-item .gq-core-content-item-img {
     text-align: center;
 }
-.gq-ds-content-item .gq-ds-item-img {
+.gq-core-content-item .gq-core-item-img {
     width: 100%;
     height: 250px;
 }
-.gq-ds-content-item .gq-ds-content-body {
+.gq-core-content-item .gq-core-content-body {
     padding: 15px;
 }
-.gq-ds-content-item .gq-ds-content-item-title {
+.gq-core-content-item .gq-core-content-item-title {
     font-size: 20px;
     color: #4d5256;
     font-weight: 100;
@@ -41,13 +41,13 @@
     border-bottom: 1px solid #e5e5e5;
     padding-bottom: 10px;
 }
-.gq-ds-content-item .gq-ds-content-item-summary {
+.gq-core-content-item .gq-core-content-item-summary {
     font-size: 14px;
     color: #4d5256;
     margin-top: 20px;
     height: 65px;
 }
-.gq-ds-content-item .gq-ds-content-item-created {
+.gq-core-content-item .gq-core-content-item-created {
     border-top: 1px solid #e5e5e5;
     padding-top: 10px;
     margin-top: 20px;
