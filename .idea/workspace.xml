@@ -34,11 +34,21 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/static/css/common.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="designer.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/application/controllers/API/designer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5940594">
-                  <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.2310231">
+                  <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -57,8 +67,8 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/application/views/_DESIGNER/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-10.625">
-                  <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+                <state vertical-scroll-proportion="-11.875">
+                  <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -71,8 +81,8 @@
           <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/js/designer/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.41800642">
-                  <caret line="26" column="48" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="48" />
+                <state vertical-scroll-proportion="0.3376206">
+                  <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -115,13 +125,11 @@
         <option value="$PROJECT_DIR$/application/models/developer_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/API/developer.php" />
         <option value="$PROJECT_DIR$/application/controllers/designer.php" />
-        <option value="$PROJECT_DIR$/application/views/_DESIGNER/index.php" />
         <option value="$PROJECT_DIR$/application/views/_PARTIAL/developer_item.php" />
         <option value="$PROJECT_DIR$/static/css/developer/index.css" />
         <option value="$PROJECT_DIR$/application/controllers/core.php" />
         <option value="$PROJECT_DIR$/application/views/_Layout/navbar.php" />
         <option value="$PROJECT_DIR$/application/views/_CORE/index.php" />
-        <option value="$PROJECT_DIR$/static/css/common.css" />
         <option value="$PROJECT_DIR$/application/views/_PARTIAL/designer_item.php" />
         <option value="$PROJECT_DIR$/static/css/designer/index.css" />
         <option value="$PROJECT_DIR$/application/views/_PARTIAL/core_model.php" />
@@ -132,6 +140,8 @@
         <option value="$PROJECT_DIR$/application/models/designer_model.php" />
         <option value="$PROJECT_DIR$/application/core/GQ_Controller.php" />
         <option value="$PROJECT_DIR$/application/controllers/API/designer.php" />
+        <option value="$PROJECT_DIR$/application/views/_DESIGNER/index.php" />
+        <option value="$PROJECT_DIR$/static/css/common.css" />
         <option value="$PROJECT_DIR$/static/js/designer/index.js" />
       </list>
     </option>
@@ -994,14 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/core/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08038585">
@@ -1106,22 +1108,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/_DESIGNER/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/designer_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/BASE_DTO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1650165">
@@ -1138,18 +1124,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/designer_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/_DESIGNER/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/API/designer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5940594">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.2310231">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/designer/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41800642">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.3376206">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding />
         </state>
       </provider>

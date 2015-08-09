@@ -56,5 +56,13 @@ div.gq-footer {
     left: 0;
     background: rgba(34,34,34, .5);
 }
+.gq-ajax-loader-container {
+    padding: 20px 0 20px 0;
+}
+.gq-ajax-loader {
+    width: 40px;
+}
+
+
 
 
