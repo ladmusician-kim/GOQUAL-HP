@@ -8,6 +8,6 @@ class Home extends GQ_Controller {
 
     function index()
     {
-        $this->load->view('welcome_message');
+        $this->__get_views('_Home/index');
     }
 }

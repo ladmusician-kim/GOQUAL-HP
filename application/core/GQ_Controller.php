@@ -18,8 +18,11 @@ class GQ_Controller extends CI_Controller {
 
     function __get_views($viewStr, $data = null) {
         $this->load->view('_Layout/header.php');
-        $this->load->view('_Layout/left_navbar.php');
-        $this->load->view('_Layout/profile_navbar.php');
+        if ($viewStr === "_Home/index") {
+            $this->load->view('_Home/full_screen.php');
+        }
+
+        $this->load->view('_Layout/navbar.php');
 
         if ($data != null) {
             $this->load->view($viewStr, $data);
