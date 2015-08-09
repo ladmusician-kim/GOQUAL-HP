@@ -1,7 +1,6 @@
 /* common */
 body {
     font-family: 'Noto Sans' !important;
-    -webkit-font-smoothing: antialiased;
 }
 p {
     color: #424242 !important;
@@ -15,7 +14,7 @@ p {
 
 /* footer */
 div.gq-footer {
-    padding: 6em 0 !important;
+    padding: 70px 0 70px 0 !important;
     background: #093f7d;
 }
 .gq-footer .gq-footer-text {
@@ -62,7 +61,6 @@ div.gq-footer {
 .gq-ajax-loader {
     width: 40px;
 }
-
 
 
 

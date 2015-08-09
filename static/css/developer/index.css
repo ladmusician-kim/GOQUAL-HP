@@ -1,6 +1,6 @@
 /* main */
 .gq-dev-main {
-    padding: 70px;
+    padding: 70px 0 70px 0;
     border-bottom: 1px solid #eaeaea;
 }
 .gq-dev-main-title {
@@ -42,4 +42,47 @@
 .gq-dev-content-item .gq-dev-content-created {
     font-size: 14px;
     color: #a9afb3;
+}
+
+
+
+
+/* mobile */
+/* Smartphones ----------- */
+@media only screen and (max-width: 768px) {
+    .gq-dev-main {
+        padding: 50px 0 50px 0;
+        border-bottom: 1px solid #eaeaea;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .gq-dev-main {
+        padding: 30px 0 30px 0;
+        border-bottom: 1px solid #eaeaea;
+    }
+    .gq-dev-main-title {
+        font-size: 25px;
+    }
+    .gq-dev-main-content {
+        font-size: 11px;
+    }
+    .gq-dev-content {
+        margin-top: 30px;
+        padding: 0 2px 0px 2px;
+    }
+    .gq-dev-content-item .gq-dev-content-title {
+        font-size: 20px;
+    }
+    .gq-dev-content-item .gq-dev-content-summary {
+        font-size: 10px;
+    }
+    .gq-dev-content-item .gq-dev-content-created {
+        font-size: 10px;
+    }
+    .gq-dev-content-item .gq-dev-img {
+        width: 15%;
+    }
+    .gq-dev-content-item {
+        padding: 0 5px 20px 5px;
+    }
 }

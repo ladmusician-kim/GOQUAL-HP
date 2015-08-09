@@ -1,8 +1,10 @@
 </div>
 <div class="gq-footer">
-    <div class="row">
-        <div class="col-lg-12 text-center gq-footer-text">
-            GOQUAL
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 text-center gq-footer-text">
+                GOQUAL
+            </div>
         </div>
     </div>
 </div>
