@@ -62,3 +62,25 @@
         </div>
     </div>
 </section>
+
+<section class="gq-home-position">
+    <div class="container">
+        <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="gq-title">
+                            GOQUAL
+                        </div>
+                        <div class="gq-content">
+                            <p>
+                                (주)고퀄은 IOT
+                            </p>
+                            <p>
+                                들추려고 하면 오히려 역효과를 일으켜 <br/>
+                                더더욱 자신만의 동굴 깊숙이 빠져 든다.<br/>
+                        진정한 실력자는 그 모습 그대로에서도 <br/>주머니 속의 송곳이 될 수 있다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

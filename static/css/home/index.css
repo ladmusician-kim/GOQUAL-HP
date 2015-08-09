@@ -1,6 +1,4 @@
-
-
-
+/* full-screen */
 .gq-fullscreen-section {
     background: #093f7d;
 }
@@ -123,7 +121,7 @@
 
 
 
-
+/* main */
 .gq-home-main {
     padding: 150px;
 }
@@ -133,7 +131,7 @@
     margin-top: 20px;
 }
 
-
+/* category */
 .gq-home-category {
     padding: 100px;
     background: #eeeeee;
@@ -141,11 +139,16 @@
 .gq-home-category .gq-category-title {
     font-size: 40px;
     margin-bottom: 40px;
-    margin-top: 20px;
 }
 .gq-home-category .gq-category-item-title {
     font-size: 19px;
     padding: 20px;
     margin-bottom: 20px;
     border-bottom: 1px solid #504747;
+}
+
+/* position */
+.gq-home-position {
+    padding-top: 96px;
+    padding-bottom: 66px;
 }
