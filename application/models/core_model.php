@@ -9,7 +9,15 @@ class Core_model extends CI_Model {
         return $this->db->count_all_results('core');
     }
     function get_by_id($core_id){
-        return $this->db->get_where('core', array('_coreid'=>$core_id))->row();
+        $this->db->limit(1);
+        $this->db->select('core._coreid, core.title, core.content, core.updated, core.isdeprecated, user.username');
+        $this->db->from('core');
+        $this->db->where('core._coreid = '. $core_id);
+        $this->db->where('core.isdeprecated = false');
+        $this->db->join('user', 'user._id = core.for_userid');
+
+        return $this->db->get()->result();
+        //return $this->db->get_where('core', array('_coreid'=>$core_id))->row();
     }
     function get_items($page = 1, $per_page = 10) {
         $base_dto = new BASE_DTO;
