@@ -1,0 +1,30 @@
+/* main */
+.gq-dev{
+    padding: 70px 0 70px 0;
+}
+.gq-dev .gq-dev-container {
+    width: 90%;
+    max-width: 700px;
+}
+.gq-dev .gq-dev-profile img {
+    width: 15%;
+}
+.gq-dev .gq-dev-user {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #4d5256;
+}
+.gq-dev .gq-dev-created {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #9c9c9c;
+}
+.gq-dev .gq-dev-content {
+    margin-top: 10%;
+    font-size: 16px;
+}
+
+.gq-dev .gq-dev-content img {
+    max-width: 90%;
+    margin: 3% auto 0 auto;
+}

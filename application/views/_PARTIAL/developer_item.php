@@ -1,7 +1,8 @@
 <?php
     foreach($items as $item) {
 ?>
-        <div class="gq-dev-content-item">
+    <div class="gq-dev-content-item">
+        <a href="<?php echo base_url()?>developer/detail?developerid=<?php echo $item->_developerid?>">
             <div class="gq-dev-content-body">
                 <img class="gq-dev-img" src="<?php echo base_url(); ?>static/img/member/dj_profile.png">
                 <div class="gq-dev-content-title">
@@ -14,7 +15,8 @@
                     <?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?>
                 </div>
             </div>
-        </div>
+        </a>
+    </div>
 <?php
-    }
+}
 ?>

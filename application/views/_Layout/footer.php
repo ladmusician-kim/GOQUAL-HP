@@ -42,9 +42,7 @@ if(file_exists($filename)) {
 }
 ?>
 
-
-
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="/static/lib/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+<script src="/static/lib/bootstrap/js/ie10-viewport-bug-workaround.js">
 </body>
 </html>

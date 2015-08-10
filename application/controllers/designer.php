@@ -23,7 +23,7 @@ class Designer extends GQ_Controller {
         $rtv = $this->designer_model->get_by_id($designer_id);
 
         if ($rtv == null || count($rtv) == 0) {
-            redirect('_DESIGNER/index');
+            redirect('designer/index');
         }
         $designer = $rtv[0];
 

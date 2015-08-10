@@ -19,13 +19,13 @@ class Core extends GQ_Controller
         $core_id = $this->input->get('coreid');
 
         if ($core_id === false || $core_id === null) {
-            redirect('_CORE/index');
+            redirect('core/index');
         }
 
         $rtv = $this->core_model->get_by_id($core_id);
 
         if ($rtv == null || count($rtv) == 0) {
-            redirect('_CORE/index');
+            redirect('core/index');
         }
         $core = $rtv[0];
 
