@@ -8,11 +8,13 @@ class Core_model extends CI_Model {
     function get_all_count () {
         return $this->db->count_all_results('core');
     }
-    function get_by_id($core_id){
+
+    function get_by_id($core_id)
+    {
         $this->db->limit(1);
         $this->db->select('core._coreid, core.title, core.content, core.updated, core.isdeprecated, user.username');
         $this->db->from('core');
-        $this->db->where('core._coreid = '. $core_id);
+        $this->db->where('core._coreid = ' . $core_id);
         $this->db->where('core.isdeprecated = false');
         $this->db->join('user', 'user._id = core.for_userid');
 

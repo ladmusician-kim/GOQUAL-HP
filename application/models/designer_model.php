@@ -1,17 +1,32 @@
 <?php
-class Designer_model extends CI_Model {
+
+class Designer_model extends CI_Model
+{
     function __construct()
     {
         parent::__construct();
     }
 
-    function get_all_count () {
+    function get_all_count()
+    {
         return $this->db->count_all_results('designer');
     }
-    function get_by_id($designer_id){
-        return $this->db->get_where('designer', array('_designerid'=>$designer_id))->row();
+
+    function get_by_id($designer_id)
+    {
+        $this->db->limit(1);
+        $this->db->select('designer._designerid, designer.title, designer.content, designer.updated, designer.isdeprecated, user.username');
+        $this->db->from('designer');
+        $this->db->where('designer._designerid = ' . $designer_id);
+        $this->db->where('designer.isdeprecated = false');
+        $this->db->join('user', 'user._id = designer.for_userid');
+
+        return $this->db->get()->result();
+        //return $this->db->get_where('designer', array('_designerid'=>$designer_id))->row();
     }
-    function get_items($page = 1, $per_page = 10) {
+
+    function get_items($page = 1, $per_page = 10)
+    {
         $base_dto = new BASE_DTO;
 
         if ($page === 1) {

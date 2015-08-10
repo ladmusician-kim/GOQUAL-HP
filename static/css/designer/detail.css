@@ -1,32 +1,30 @@
 /* main */
-.gq-core{
+.gq-ds{
     padding: 70px 0 70px 0;
 }
-.gq-core .gq-core-container {
+.gq-ds .gq-ds-container {
     width: 90%;
     max-width: 700px;
 }
-.gq-core .gq-core-profile img {
+.gq-ds .gq-ds-profile img {
     width: 15%;
 }
-.gq-core .gq-core-user {
+.gq-ds .gq-ds-user {
     margin-top: 30px;
     font-size: 20px;
     color: #4d5256;
 }
-.gq-core .gq-core-created {
+.gq-ds .gq-ds-created {
     margin-top: 10px;
     font-size: 14px;
     color: #9c9c9c;
 }
-.gq-core .gq-core-content {
+.gq-ds .gq-ds-content {
     margin-top: 10%;
     font-size: 16px;
 }
 
-.gq-core .gq-core-content img {
+.gq-ds .gq-ds-content img {
     max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+    margin: 3% auto 0 auto;
 }

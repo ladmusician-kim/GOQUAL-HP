@@ -4,7 +4,7 @@ foreach($items as $item) {
     <div class="gq-ds-content-item col-lg-4">
         <div class="gq-ds-content-item-inner">
             <div class="gq-ds-content-item-img">
-                <a class="gq-ds-item-img-container">
+                <a class="gq-ds-item-img-container" href="<?php echo base_url()?>designer/detail?designerid=<?php echo $item->_designerid ?>">
                     <img class="gq-ds-item-img" src="<?php echo $item->main_img_uri?>" >
                 </a>
             </div>
