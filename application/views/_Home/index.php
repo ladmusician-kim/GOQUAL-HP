@@ -1,85 +1,138 @@
-<section class="gq-home-main">
+<div class="gq-cp-container">
+    <section class="gq-cp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center gq-cp-title">
+                    <p>낭중지추[囊中之錐]처럼 우리의 재능은</p>
+                    <p>반드시 빛을 발할 것입니다.</p>
+                </div>
+                <div class="col-lg-12 text-center gq-cp-content">
+                    <p>GOQUAL은 우리의 삶을 더 편리하고</p>
+                    <p>안전하게 해줄 IoT 제품들 그리고 이를 위해 필요한</p>
+                    <p>모든 Software를 개발하는 회사로서 더 높은 Quality를 위해 노력하고 있습니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<section class="gq-sp">
+    <div class="container gq-sp-container">
+        <div class="row">
+            <div class="col-lg-12 text-center gq-sp-title">
+                <p>성장 그리고 성장...</p>
+                <p>어제보다 더 나은 오늘을 위해</p>
+            </div>
+            <div class="col-lg-12 text-center gq-sp-content">
+                <p>주식회사 고퀄은 중소기업청과 스마트벤처창업학교, 대구창조경제혁신센터의 도움을 받아 사업을 시작하게 되었습니다. </p>
+                <p> 그렇게 만든 제품 BlueSwitch로 글로벌 시장 진출을 위해 노력하던 중 Singapore의 Lighting Design업체인 </p>
+                <p>Illuminating Asia를 만나 MOU를 체결하고 수출을 하며, 글로벌 시장의 가능성을 보습니다. </p>
+                <p>실력, 기술성, 그리고 잠재력을 인정받아 삼성벤처투자회사로부터 투자 받았습니다. </p>
+                <br>
+                <br>
+                <p>이제 또 다시 시작입니다.</p>
+            </div>
+            <div class="col-lg-12 text-center gq-sp-img">
+                <img src="<?=site_url('/static/img/home/gq_sp_1.png')?>">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gq-team">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="gq-title">
-                    낭중지추
+            <div class="col-lg-12 text-center gq-team-title">
+                36.6도의 사람들
+                <div class="gq-line"></div>
+            </div>
+            <div class="col-lg-3 text-center gq-team-item">
+                <img src="<?=site_url('/static/img/member/gq_team_ceo.jpeg')?>">
+                <div class="gq-team-name">
+                    Sean WOO
                 </div>
-                <div class="gq-content">
-                    <p>
-                        주머니 속의 송곳이라는 뜻으로, 재능이 뛰어난 사람은 <br/>
-                        숨어 있어도 저절로 사람들에게 알려짐을 이르는 말.
-                    </p>
-                    <p>
-                        들추려고 하면 오히려 역효과를 일으켜 <br/>
-                        더더욱 자신만의 동굴 깊숙이 빠져 든다.<br/>
-                        진정한 실력자는 그 모습 그대로에서도 <br/>주머니 속의 송곳이 될 수 있다.
-                    </p>
+                <div class="gq-team-position">
+                    CEO
+                </div>
+                <div class="gq-team-ment">
+                    "큰 그림을 그린다면..."
+                </div>
+            </div>
+            <div class="col-lg-3 text-center gq-team-item">
+                <img src="<?=site_url('/static/img/member/gq_team_developer.jpeg')?>">
+                <div class="gq-team-name">
+                    Dongjin KIM
+                </div>
+                <div class="gq-team-position">
+                    DEVELOPER
+                </div>
+                <div class="gq-team-ment">
+                    "CEO는 나의 적!"
+                </div>
+            </div>
+            <div class="col-lg-3 text-center gq-team-item">
+                <img src="<?=site_url('/static/img/member/gq_team_designer.jpeg')?>">
+                <div class="gq-team-name">
+                    Inkyu YOON
+                </div>
+                <div class="gq-team-position">
+                    DEVELOPER
+                </div>
+                <div class="gq-team-ment">
+                    "아.. 그래요? 그래요?"
+                </div>
+            </div>
+            <div class="col-lg-3 text-center gq-team-item">
+                <img src="<?=site_url('/static/img/member/gq_team_designer.jpeg')?>">
+                <div class="gq-team-name">
+                    Junghyo YEA
+                </div>
+                <div class="gq-team-position">
+                    DESIGNER
+                </div>
+                <div class="gq-team-ment">
+                    "디자인의 관점에선 그게 아니에요!!"
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="gq-home-category">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-lg-12">
-                <div class="gq-category-title">
-                    OUR PARTNER
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="gq-category-item">
-                    <div class="gq-category-item-title">CORE</div>
-                    <div class="gq-cateogry-item-content">
-                        (주)고퀄의 전반적이 업무를 챔익지는 파트로써 <br>
-                        간단한 잡무부터 빡쎈 노가다까지 모든걸 책임지는 CORE <br>
-                        뿐만아니라, 직원들의 복지에 가장 힘쓰는 파트
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="gq-category-item">
-                    <div class="gq-category-item-title">DESIGN</div>
-                    <div class="gq-cateogry-item-content">
-                        제품 디자인에서 웹,앱 UI/UX 까지 한 부분에 <br>
-                        종속되어 있기 보다는 다양한 지식과 경험이 필요한 <br>
-                        만능 디자이너팀 <br>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="gq-category-item">
-                    <div class="gq-category-item-title">DEVELOPE</div>
-                    <div class="gq-cateogry-item-content">
-                        오늘은 웹을 만듭니다. 뚝딱뚝딱<br>
-                        그러다 앱을 만들죠. 띵띵띵띵<br>
-                        그러다 서버 만집니다. 미친미친<br>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<div class="gq-line"></div>
 
-<section class="gq-home-position">
-    <div class="container">
+<section class="gq-contact">
+    <div class="container gq-contact-container">
         <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <div class="gq-title">
-                            GOQUAL
-                        </div>
-                        <div class="gq-content">
-                            <p>
-                                (주)고퀄은 IOT
-                            </p>
-                            <p>
-                                들추려고 하면 오히려 역효과를 일으켜 <br/>
-                                더더욱 자신만의 동굴 깊숙이 빠져 든다.<br/>
-                        진정한 실력자는 그 모습 그대로에서도 <br/>주머니 속의 송곳이 될 수 있다.
-                    </p>
-                </div>
+            <div class="gq-contact-title text-center">
+                열정이 불타오르는 곳
+            </div>
+            <div class="col-lg-7 gq-contact-map-wrapper">
+                <div id="goqual-map"></div>
+            </div>
+            <div class="col-lg-5 gq-contact-content">
+                <p class="gq-contact-name">
+                    <i class="glyphicon glyphicon-chevron-down"></i>
+                    (주)고퀄
+                </p>
+                <p class="gq-contact-category">
+                    Address :
+                </p>
+                <p class="gq-contact-category-content">
+                    대구광역시 동구 동대구로 467 스마트벤처창업학교
+                </p>
+                <p class="gq-contact-category">
+                    Tel :
+                </p>
+                <p class="gq-contact-category-content">
+                    070-4738-3000
+                </p>
+                <p class="gq-contact-category">
+                    Fax :
+                </p>
+                <p class="gq-contact-category-content">
+                    0303-3444-2230
+                </p>
             </div>
         </div>
     </div>

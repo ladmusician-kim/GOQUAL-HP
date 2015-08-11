@@ -32,7 +32,12 @@
 
     if(file_exists($filename)) {
     ?>
-        <link href="/GOQUAL/<?php echo $filename; ?>" rel="stylesheet">
+    <link href="/GOQUAL/<?php echo $filename; ?>" rel="stylesheet">
+    <?php
+    }
+    if (strpos($filename, 'home')) {
+    ?>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?v=3.exp&region=KR"></script>
     <?php
     }
     ?>

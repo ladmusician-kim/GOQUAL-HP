@@ -15,7 +15,7 @@ class Developer_model extends CI_Model
     function get_by_id($developer_id)
     {
         $this->db->limit(1);
-        $this->db->select('developer._developerid, developer.title, developer.content, developer.updated, developer.isdeprecated, user.username');
+        $this->db->select('developer._developerid, developer.title, developer.content, developer.updated, developer.isdeprecated, user.profile_uri, user.username');
         $this->db->from('developer');
         $this->db->where('developer._developerid = ' . $developer_id);
         $this->db->where('developer.isdeprecated = false');
@@ -36,7 +36,7 @@ class Developer_model extends CI_Model
             $this->db->limit($per_page, ($page - 1) * $per_page);
         }
 
-        $this->db->select('developer._developerid, developer.title, developer.summary, developer.updated, user.username');
+        $this->db->select('developer._developerid, developer.title, developer.summary, developer.updated, user.profile_uri, user.username');
         $this->db->from('developer');
         $this->db->where('developer.isdeprecated = false');
         $this->db->join('user', 'user._id = developer.for_userid');

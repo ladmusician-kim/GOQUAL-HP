@@ -4,7 +4,7 @@
     <div class="gq-dev-content-item">
         <a href="<?php echo base_url()?>developer/detail?developerid=<?php echo $item->_developerid?>">
             <div class="gq-dev-content-body">
-                <img class="gq-dev-img" src="<?php echo base_url(); ?>static/img/member/dj_profile.png">
+                <img class="gq-dev-img" src="<?php echo $item->profile_uri ?>">
                 <div class="gq-dev-content-title">
                     <?php echo $item->title ?>
                 </div>
