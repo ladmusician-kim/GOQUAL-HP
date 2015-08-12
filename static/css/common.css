@@ -21,25 +21,23 @@ p {
 }
 
 @media only screen and (min-width: 600px) {
-    .gq-main-menu-nav > li, .gq-main-menu-nav > li > a, .gq-main-menu-brand {
+    .gq-main-menu-nav > li, .gq-main-menu-nav > li > a, .gq-main-menu-brand, .navbar-brand {
         padding-top:0px !important;
         padding-bottom:0 !important;
         height: 80px;
         line-height: 80px;
         vertical-align: middle;
     }
-    .gq-main-navbar {min-height:80px !important;}
+    .navbar-brand img {
+        padding-top:0px !important;
+        padding-bottom:0 !important;
+        line-height: 80px;
+        width: 150px;
+        margin-top: 29px;
+        vertical-align: middle;
+    }
 
-    .gq-navbar-collapse {
-        position: relative;
-        float: right;
-        left: -50%;
-    }
-    .gq-main-menu-nav {
-        position: relative;
-        float: right;
-        left: 50%;
-    }
+    .gq-main-navbar {min-height:80px !important;}
 }
 
 
