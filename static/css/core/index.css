@@ -76,11 +76,14 @@
     padding-top: 20px;
     padding-bottom: 40px;
     list-style: none;
+    padding-left: 0px;
 }
 .gq-core-category-wrapper li {
     display: inline-block;
-    min-width: 30px;
     color: #999999;
+}
+.gq-core-category-wrapper li.gq-core-category-item {
+    min-width: 30px;
 }
 .gq-core-category-wrapper a {
     color: #999999;

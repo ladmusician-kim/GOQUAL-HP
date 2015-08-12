@@ -15,14 +15,14 @@
 <section class="gq-core-content">
     <div class="container gq-core-container">
         <ul class="gq-core-category-wrapper text-center">
-            <li><a href="<?= site_url('/core/index')?>">전체보기</a></li>
-            <li>/</li>
+            <li class="gq-core-category-item"><a href="<?= site_url('/core/index')?>">전체보기</a></li>
+            <li class="gq-core-category-item">/</li>
             <?php
             foreach($categories as $idx=>$value) {
                 if ($idx != count($categories) - 1) {
                     ?>
-                    <li><a href="<?= site_url('/core/index?categoryid='.$value->_categoryid)?>"><?php echo $value->label ?></a></li>
-                    <li>/</li>
+                    <li class="gq-core-category-item"><a href="<?= site_url('/core/index?categoryid='.$value->_categoryid)?>"><?php echo $value->label ?></a></li>
+                    <li class="gq-core-category-item">/</li>
                     <?php
                 } else {
                     ?>

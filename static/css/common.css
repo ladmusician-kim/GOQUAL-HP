@@ -20,6 +20,9 @@ p {
 .navbar {
     margin-bottom: 0px !important;
 }
+.gq-navbar {
+    background-color: #fafafa !important;
+}
 
 @media only screen and (min-width: 600px) {
     .gq-main-menu-nav > li, .gq-main-menu-nav > li > a, .gq-main-menu-brand, .navbar-brand {
@@ -181,4 +184,13 @@ a:hover {
     z-index: 9999;
     background: url('/static/img/loader.gif') center no-repeat #fff;
     background-color: rgba(255, 255, 255, 0.8)
+}
+
+.gq-no-item {
+    margin-top: 50px;
+    font-size: 30px;
+}
+.gq-no-item-img {
+    margin-bottom: 50px;
+    font-size: 30px;
 }

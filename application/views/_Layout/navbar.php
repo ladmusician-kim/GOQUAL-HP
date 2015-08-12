@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#">
-                <img src="<?= site_url('/static/img/home/gq_ci.png')?>" >
+                <img src="<?= site_url('/static/img/home/gq_ci_black.png')?>" >
             </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse gq-navbar-collapse" aria-expanded="false" style="height: 1px;">
