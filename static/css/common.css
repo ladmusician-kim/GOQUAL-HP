@@ -45,11 +45,50 @@ p {
 /* footer */
 div.gq-footer {
     padding: 70px 0 70px 0 !important;
-    background: #093f7d;
+    background: #fafafa;
 }
 .gq-footer .gq-footer-text {
-    color: white;
+    color: #424242;
+    font-size: 20px;
 }
+
+/* always on top */
+
+#gq-to-top
+{
+    z-index:1030;
+    width: 60px;
+    height: 42px;
+    border: 2px solid #887373;
+    background: #887373;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    color: #000;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 20px;
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear;
+    padding: 5px;
+}
+#gq-to-top:hover
+{
+    background: #b3b3b3;
+    border: 2px solid #b3b3b3;
+}
+#gq-to-top .gq-aot-icon {
+    top: 6px;
+}
+
 
 /* animate */
 @-webkit-keyframes scroll-down-anim {

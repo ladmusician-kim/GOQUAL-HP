@@ -3,8 +3,8 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 col-sm-12 text-center gq-footer-text">
-                GOQUAL
-            </div>
+                GOQUAL Inc
+            <div>
         </div>
     </div>
 </div>
