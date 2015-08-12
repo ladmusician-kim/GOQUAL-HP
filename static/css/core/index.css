@@ -42,10 +42,17 @@
     border-bottom: 1px solid #ececec;
 }
 .gq-core-ul .gq-core-li .inner .gq-core-item-container .info {
-    padding: 10px 0 10px 7px;
+    padding: 15px 0 10px 7px;
     font-size: 12px;
     display: block;
     color: #7b7b7b;
+    position: relative;
+}
+.gq-core-ul .gq-core-li .inner .gq-core-item-container .gq-share-btn {
+    float:right;
+    position: absolute;
+    top: 12px;
+    right: 7px;
 }
 
 

@@ -36,8 +36,8 @@ p {
         padding-top:0px !important;
         padding-bottom:0 !important;
         line-height: 80px;
-        width: 150px;
-        margin-top: 29px;
+        width: 100px;
+        margin-top: 33px;
         vertical-align: middle;
     }
 
@@ -193,4 +193,26 @@ a:hover {
 .gq-no-item-img {
     margin-bottom: 50px;
     font-size: 30px;
+}
+
+ul.gq-item-share {
+    display: inline-block;
+    float: right;
+    padding: 15px;
+}
+ul.gq-item-share li {
+    float:right;
+    display:block;
+}
+
+
+
+.share-btn {
+    background-image: url('/GOQUAL/static/img/facebook-hover.png');
+    height: 22px;
+    width: 22px;
+    float: left;
+    border-radius: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }

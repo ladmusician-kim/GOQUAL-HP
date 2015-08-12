@@ -2,7 +2,7 @@
     <div class="container gq-dev-container">
         <div class="row text-center">
             <div class="col-lg-12 gq-dev-profile text-center">
-                <img class="gq-dev-profile-img" src="<?php echo base_url() ?>static/img/member/dj_profile.png">
+                <img class="gq-dev-profile-img" src="<?php echo $item->profile_uri ?>">
             </div>
             <div class="col-lg-12 gq-dev-user">
                 <?php echo $item->title ?>
