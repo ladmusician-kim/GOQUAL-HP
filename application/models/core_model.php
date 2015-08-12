@@ -12,11 +12,12 @@ class Core_model extends CI_Model {
     function get_by_id($core_id)
     {
         $this->db->limit(1);
-        $this->db->select('core._coreid, core.title, core.content, core.updated, core.isdeprecated, user.profile_uri, user.username');
+        $this->db->select('core._coreid, core.title, core.content, core.updated, core.isdeprecated, user.profile_uri, user.username, core_category.label');
         $this->db->from('core');
         $this->db->where('core._coreid = ' . $core_id);
         $this->db->where('core.isdeprecated = false');
         $this->db->join('user', 'user._id = core.for_userid');
+        $this->db->join('core_category', 'core_category._categoryid = core.for_categoryid');
 
         return $this->db->get()->result();
     }
