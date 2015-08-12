@@ -1,5 +1,6 @@
 .gq-core-ul {
     list-style: none;
+    padding-left: 0px !important;
 }
 .gq-core-ul .gq-core-li {
     padding-left: 10px !important;
@@ -9,8 +10,8 @@
     background-color: white;
     display: inline-block;
     border-radius: 6px;
-    box-shadow: 1px 1px 9px 0 rgba(0,0,0,0.18);
-    -webkit-box-shadow: 1px 1px 9px 0 rgba(0,0,0,0.18);
+    box-shadow: 1px 1px 6px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow: 1px 1px 6px 0 rgba(0,0,0,0.1);
     margin-bottom: 20px;
 }
 .gq-core-ul .gq-core-li .inner .gq-core-item-img {
@@ -70,52 +71,6 @@
     padding: 60px;
     background: #f5f5f5;
 }
-.gq-core-content-item {
-    display: inline-block;
-    margin-bottom: 30px;
-    float: left;
-}
-.gq-core-content-item .gq-core-content-item-inner {
-    background: #ffffff;
-}
-.gq-core-content-item .gq-core-content-item-img {
-    text-align: center;
-}
-.gq-core-content-item .gq-core-item-img {
-    width: 100%;
-    /*height: 250px;*/
-}
-.gq-core-content-item .gq-core-content-body {
-    padding: 15px;
-}
-.gq-core-content-item .gq-core-content-item-title {
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 1.4em;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #e5e5e5;
-    padding-bottom: 10px;
-}
-.gq-core-content-item .gq-core-content-item-title a{
-    color: #4d5256 !important;
-}
-.gq-core-content-item .gq-core-content-item-title a:hover {
-    color: #4d5256 !important;
-    font-weight: 300;
-}
-.gq-core-content-item .gq-core-content-item-summary {
-    font-size: 14px;
-    color: #4d5256;
-    margin-top: 20px;
-    height: 65px;
-}
-.gq-core-content-item .gq-core-content-item-created {
-    border-top: 1px solid #e5e5e5;
-    padding-top: 10px;
-    margin-top: 20px;
-    font-size: 14px;
-    color: #a9afb3;
-}
 
 
 /* mobile */
@@ -132,20 +87,5 @@
     }
     .gq-core-content {
         padding: 30px 2px 0px 2px;
-    }
-    .gq-core-content-item .gq-core-content-title {
-        font-size: 20px;
-    }
-    .gq-core-content-item .gq-core-content-summary {
-        font-size: 10px;
-    }
-    .gq-core-content-item .gq-core-content-created {
-        font-size: 10px;
-    }
-    .gq-core-content-item .gq-core-img {
-        width: 15%;
-    }
-    .gq-core-content-item {
-        padding: 0 5px 20px 5px;
     }
 }

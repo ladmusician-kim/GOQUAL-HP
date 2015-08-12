@@ -20,3 +20,4 @@
         <img class="gq-ajax-loader" src="/static/img/loader.gif" />
     </div>
 </section>
+

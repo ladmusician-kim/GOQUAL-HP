@@ -16,7 +16,7 @@ class Core extends GQ_Controller
 
         if ($page === false || $per_page === false) {
             $page = 1;
-            $per_page = 9;
+            $per_page = 12;
         }
 
         $items = $this->core_model->get_items($page, $per_page);

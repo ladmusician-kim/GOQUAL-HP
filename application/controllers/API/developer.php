@@ -8,15 +8,17 @@ class Developer extends GQ_Controller
         parent::__construct();
     }
 
+
     function get_items()
     {
+
         $this->load->model('developer_model');
         $page = $this->input->get('page');
         $per_page = $this->input->get('per_page');
 
         if ($page === false || $per_page === false) {
             $page = 1;
-            $per_page = 9;
+            $per_page = 10;
         }
 
         $items = $this->developer_model->get_items($page, $per_page);

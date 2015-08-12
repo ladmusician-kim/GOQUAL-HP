@@ -19,7 +19,6 @@ class Core_model extends CI_Model {
         $this->db->join('user', 'user._id = core.for_userid');
 
         return $this->db->get()->result();
-        //return $this->db->get_where('core', array('_coreid'=>$core_id))->row();
     }
     function get_items($page = 1, $per_page = 10) {
         $base_dto = new BASE_DTO;
@@ -39,7 +38,7 @@ class Core_model extends CI_Model {
 
         $result = $this->db->get()->result();
 
-        $base_dto->set_value($result);
+        $base_dto->set_value($result, true);
 
         return $base_dto;
     }

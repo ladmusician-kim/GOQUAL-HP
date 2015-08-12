@@ -43,7 +43,7 @@ class Developer_model extends CI_Model
 
         $result = $this->db->get()->result();
 
-        $base_dto->set_value($result);
+        $base_dto->set_value($result, false);
         return $base_dto;
     }
 }   
