@@ -1,3 +1,4 @@
+<input type="hidden" id="categoryid" value="<?php echo $categoryid?>" >
 <section class="gq-core-main">
     <div class="container">
         <div class="row text-center">
@@ -14,16 +15,18 @@
 <section class="gq-core-content">
     <div class="container gq-core-container">
         <ul class="gq-core-category-wrapper text-center">
+            <li><a href="<?= site_url('/core/index')?>">전체보기</a></li>
+            <li>/</li>
             <?php
             foreach($categories as $idx=>$value) {
                 if ($idx != count($categories) - 1) {
                     ?>
-                    <li><a><?php echo $value->label ?></a></li>
+                    <li><a href="<?= site_url('/core/index?categoryid='.$value->_categoryid)?>"><?php echo $value->label ?></a></li>
                     <li>/</li>
                     <?php
                 } else {
                     ?>
-                    <li><a><?php echo $value->label ?></a></li>
+                    <li><a href="<?= site_url('/core/index?categoryid='.$value->_categoryid)?>"><?php echo $value->label ?></a></li>
                     <?php
                 }
             }

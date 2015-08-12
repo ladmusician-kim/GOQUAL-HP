@@ -5,13 +5,20 @@ $(document).ready(function () {
     var total_count = -1;
     var processing = false;
     var ajax_loader = $('.gq-ajax-loader');
+    var category_id = $('#categoryid').val();
 
     get_items(page, per_page);
 
     function get_items(page, perPage) {
+        var api = '/GOQUAL/API/core/get_items?page=' + page + '&per_page=' + perPage;
+
+        if (category_id != null && category_id !== "" && category_id.length >0) {
+            api = api + '&categoryid=' + category_id;
+        }
+
         processing = true;
         ajax_loader.show();
-        getJson('/GOQUAL/API/core/get_items?page=' + page + '&per_page=' + perPage, {},
+        getJson(api, {},
             function (data) {
                 ajax_loader.hide();
                 processing = false;

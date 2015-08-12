@@ -21,8 +21,9 @@ class Core_model extends CI_Model {
 
         return $this->db->get()->result();
     }
-    function get_items($page = 1, $per_page = 10) {
+    function get_items($page = 1, $per_page = 10, $categoryid = -1) {
         $base_dto = new BASE_DTO;
+
 
         if ($page === 1) {
             $this->db->limit($per_page);
@@ -37,6 +38,10 @@ class Core_model extends CI_Model {
         $this->db->order_by("core._coreid", "desc");
         $this->db->join('user', 'user._id = core.for_userid');
         $this->db->join('core_category', 'core_category._categoryid = core.for_categoryid');
+
+        if ($categoryid) {
+            $this->db->where('core.for_categoryid = '.$categoryid);
+        }
 
         $result = $this->db->get()->result();
 

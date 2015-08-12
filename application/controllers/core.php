@@ -13,7 +13,10 @@ class Core extends GQ_Controller
     {
         $this->load->model('core_category_model');
         $categories = $this->core_category_model->gets();
-        $this->__get_views('_CORE/index', array('categories' => $categories));
+
+        $categoryid = $this->input->get('categoryid');
+
+        $this->__get_views('_CORE/index', array('categories' => $categories, 'categoryid' => $categoryid));
     }
 
     function detail()

@@ -14,12 +14,14 @@ class Core extends GQ_Controller
         $page = $this->input->get('page');
         $per_page = $this->input->get('per_page');
 
+        $categoryid = $this->input->get('categoryid');
+
         if ($page === false || $per_page === false) {
             $page = 1;
             $per_page = 12;
         }
 
-        $items = $this->core_model->get_items($page, $per_page);
+        $items = $this->core_model->get_items($page, $per_page, $categoryid);
         $total_count = $this->core_model->get_all_count();
 
         $last_page = ceil($total_count / $per_page);
