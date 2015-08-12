@@ -30,11 +30,12 @@ class Core_model extends CI_Model {
             $this->db->limit($per_page, ($page - 1) * $per_page);
         }
 
-        $this->db->select('core._coreid, core.title, core.summary, core.main_img_uri, core.updated, user.username');
+        $this->db->select('core._coreid, core.title, core.summary, core.main_img_uri, core.updated, user.username, core_category.label');
         $this->db->from('core');
         $this->db->where('core.isdeprecated = false');
         $this->db->order_by("core._coreid", "desc");
         $this->db->join('user', 'user._id = core.for_userid');
+        $this->db->join('core_category', 'core_category._categoryid = core.for_categoryid');
 
         $result = $this->db->get()->result();
 

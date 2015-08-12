@@ -11,7 +11,9 @@ class Core extends GQ_Controller
 
     function index()
     {
-        $this->__get_views('_CORE/index');
+        $this->load->model('core_category_model');
+        $categories = $this->core_category_model->gets();
+        $this->__get_views('_CORE/index', array('categories' => $categories));
     }
 
     function detail()

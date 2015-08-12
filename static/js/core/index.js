@@ -31,7 +31,6 @@ $(document).ready(function () {
 
                 $(items).each(function (idx, item) {
                     if (idx < first_column_count) {
-                        console.log(item + '</div>');
                         $(lists[0]).append(item + '</div>');
 
                     } else if ( idx >= first_column_count && idx < second_column_count) {

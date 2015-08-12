@@ -13,6 +13,22 @@
 
 <section class="gq-core-content">
     <div class="container gq-core-container">
+        <ul class="gq-core-category-wrapper text-center">
+            <?php
+            foreach($categories as $idx=>$value) {
+                if ($idx != count($categories) - 1) {
+                    ?>
+                    <li><a><?php echo $value->label ?></a></li>
+                    <li>/</li>
+                    <?php
+                } else {
+                    ?>
+                    <li><a><?php echo $value->label ?></a></li>
+                    <?php
+                }
+            }
+            ?>
+        </ul>
         <div id="gq-core-content-container" class="row">
             <ul class="gq-core-ul">
                 <li class="gq-core-li col-lg-3">
