@@ -15,15 +15,37 @@ $(document).ready(function () {
             function (data) {
                 ajax_loader.hide();
                 processing = false;
-                $('#gq-core-content-container:last').after(data.data);
 
                 page = data.page;
                 per_page = data.per_page;
                 last_page = data.last_page;
                 total_count = data.total_count;
 
+                var first_column_count = data.first_count;
+                var second_column_count = data.first_count + data.second_count;
+                var third_column_count = data.first_count + data.second_count + data.third_count;
+                var fourth_column_count = data.first_count + data.second_count + data.third_count + data.fourth_count;
+
+                var items = data.data.split('</div>');
+                var lists = $("#gq-core-content-container ul li");
+
+                $(items).each(function (idx, item) {
+                    if (idx < first_column_count) {
+                        console.log(item + '</div>');
+                        $(lists[0]).append(item + '</div>');
+
+                    } else if ( idx >= first_column_count && idx < second_column_count) {
+                        $(lists[1]).append(item + '</div>');
+
+                    } else if ( idx >= second_column_count && idx < third_column_count) {
+                        $(lists[2]).append(item + '</div>');
+
+                    } else if ( idx >= third_column_count && idx < fourth_column_count) {
+                        $(lists[3]).append(item + '</div>');
+                    }
+                });
             }, function (arg) {
-                console.log(arg);
+                console.log('error!!: ' + arg);
             }, 'json');
     }
 

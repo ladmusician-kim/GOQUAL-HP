@@ -30,7 +30,11 @@ class Core extends GQ_Controller
             'page' => $page,
             'per_page' => $per_page,
             'total_count' => $total_count,
-            'last_page' => $last_page
+            'last_page' => $last_page,
+            'first_count' => $items->first_count,
+            'second_count' => $items->second_count,
+            'third_count' => $items->third_count,
+            'fourth_count' => $items->fourth_count,
         );
 
         echo json_encode($passe_data);

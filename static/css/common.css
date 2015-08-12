@@ -9,6 +9,7 @@
 /* common */
 body {
     font-family: 'Apple SD Gothic Neo', 'Nanum Gothic','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif !important;
+    font-weight: 100;
 }
 p {
     color: #424242 !important;

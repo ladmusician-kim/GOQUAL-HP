@@ -34,11 +34,13 @@ class Core_model extends CI_Model {
         $this->db->select('core._coreid, core.title, core.summary, core.main_img_uri, core.updated, user.username');
         $this->db->from('core');
         $this->db->where('core.isdeprecated = false');
+        $this->db->order_by("core._coreid", "desc");
         $this->db->join('user', 'user._id = core.for_userid');
 
         $result = $this->db->get()->result();
 
         $base_dto->set_value($result);
+
         return $base_dto;
     }
 }   
