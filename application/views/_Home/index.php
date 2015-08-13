@@ -54,7 +54,7 @@
                 36.6도의 사람들
                 <div class="gq-line"></div>
             </div>
-            <div class="col-lg-3 text-center gq-team-item">
+            <div class="col-lg-3 col-sm-3 col-md-3 text-center gq-team-item">
                 <img src="<?=site_url('/static/img/member/gq_team_ceo.jpeg')?>">
                 <div class="gq-team-name">
                     Sean WOO
@@ -65,8 +65,11 @@
                 <div class="gq-team-ment">
                     "큰 그림을 그린다면..."
                 </div>
+                <div class="gq-team-sns">
+                    <a target="_blank" href="https://www.facebook.com/CEO.WSB" class="gq-share-btn share-btn"></a>
+                </div>
             </div>
-            <div class="col-lg-3 text-center gq-team-item">
+            <div class="col-lg-3 col-sm-3 col-md-3 text-center gq-team-item">
                 <img src="<?=site_url('/static/img/member/gq_team_developer.jpeg')?>">
                 <div class="gq-team-name">
                     Dongjin KIM
@@ -77,8 +80,11 @@
                 <div class="gq-team-ment">
                     "CEO는 나의 적!"
                 </div>
+                <div class="gq-team-sns">
+                    <a target="_blank" href="https://www.facebook.com/dongjin20" class="gq-share-btn share-btn"></a>
+                </div>
             </div>
-            <div class="col-lg-3 text-center gq-team-item">
+            <div class="col-lg-3 col-sm-3 col-md-3 text-center gq-team-item">
                 <img src="<?=site_url('/static/img/member/gq_team_designer.jpeg')?>">
                 <div class="gq-team-name">
                     Inkyu YOON
@@ -89,8 +95,11 @@
                 <div class="gq-team-ment">
                     "아.. 그래요? 그래요?"
                 </div>
+                <div class="gq-team-sns">
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100005332847290" class="gq-share-btn share-btn"></a>
+                </div>
             </div>
-            <div class="col-lg-3 text-center gq-team-item">
+            <div class="col-lg-3 col-sm-3 col-md-3 text-center gq-team-item">
                 <img src="<?=site_url('/static/img/member/gq_team_designer.jpeg')?>">
                 <div class="gq-team-name">
                     Junghyo YEA
@@ -100,6 +109,9 @@
                 </div>
                 <div class="gq-team-ment">
                     "디자인의 관점에선 그게 아니에요!!"
+                </div>
+                <div class="gq-team-sns">
+                    <a target="_blank" href="https://www.facebook.com/junghyo.yea" class="gq-share-btn share-btn"></a>
                 </div>
             </div>
         </div>

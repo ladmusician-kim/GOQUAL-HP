@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // full-screen
     var window_width = $(window).width();
-    if (window_width > 770) {
+    if (window_width > 760) {
         var window_height = $(window).height();
         var menu_height = $('.gq-navbar').height();
         var container = $('.gq-fc-container');

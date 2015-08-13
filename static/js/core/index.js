@@ -76,4 +76,7 @@ $(document).ready(function () {
     var window_height = $(window).height();
     var footer_height = $('.gq-footer').outerHeight();
     $('.gq-body-container').css('min-height', window_height - footer_height);
+
+    var item_wrapper_width = $($('.gq-core-li')[0]).width();
+    
 });

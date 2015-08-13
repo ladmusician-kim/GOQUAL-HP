@@ -9,7 +9,7 @@
 
     <link href="/static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo base_url()?>static/css/common.css" rel="stylesheet">
-    <!--<link href="/static/lib/animation/animate.css" rel="stylesheet">-->
+    <link href="/static/lib/animation/animate.css" rel="stylesheet">
 
     <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 

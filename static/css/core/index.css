@@ -7,6 +7,7 @@
     padding-right: 10px !important;
 }
 .gq-core-ul .gq-core-li .inner{
+    width: 100%;
     background-color: white;
     display: inline-block;
     border-radius: 6px;
@@ -107,7 +108,15 @@
     .gq-core-main-content {
         font-size: 11px;
     }
+    .gq-core-container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
     .gq-core-content {
         padding: 30px 2px 0px 2px;
+    }
+    .gq-core-ul .gq-core-li {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
 }

@@ -249,4 +249,14 @@ ul.gq-item-share li {
     .navbar-default .navbar-toggle {
         border:none !important;
     }
+    .gq-no-item {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .gq-no-item-img {
+        margin-bottom: 20px;
+    }
+    .gq-no-item-img img {
+        width: 20%;
+    }
 }

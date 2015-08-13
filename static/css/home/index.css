@@ -6,6 +6,7 @@
 .gq-fc-container {
     position: relative;
     height: 100%;
+    width: 80% !important;
 }
 /* TOP */
 .gq-fc-container .gq-fc-top {
@@ -77,7 +78,7 @@
 }
 .gq-fc-main-wrapper .gq-fc-main p {
     font-weight: bold;
-    font-size: 8em;
+    font-size: 7.5em;
     margin-bottom: -60px !important;
     letter-spacing: 0px;
     font-style: italic;
@@ -286,14 +287,22 @@
 }
 .gq-team .gq-team-item .gq-team-name {
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .gq-team .gq-team-item .gq-team-position {
     color: #999999;
     margin-bottom: 5px;
 }
-.gq-team .gq-team-item .gq-team-position {
-    color: #999999;
+.gq-team .gq-team-item .gq-team-sns {
+    background-image: url('/GOQUAL/static/img/facebook-hover.png');
+    height: 22px;
+    width: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 
@@ -319,6 +328,7 @@
 }
 .gq-contact #goqual-map {
     height: 350px;
+    margin-bottom: 20px;
 }
 .gq-contact .gq-contact-name {
     font-size: 20px;
@@ -369,7 +379,7 @@
         padding: 60px 0 60px 0;
     }
     .gq-sp .gq-sp-title p {
-        font-size: 18px;
+        font-size: 22px;
     }
     .gq-sp .gq-sp-content p {
         font-size: 14px;
@@ -380,20 +390,23 @@
 
     /* team */
     .gq-team {
-        padding: 60px 0 60px 0;
+        padding: 40px 0 40px 0;
     }
     .gq-team .gq-team-title {
-        font-size: 18px;
+        font-size: 25px;
     }
     .gq-team .gq-team-item {
-        padding: 10px;
+        padding: 20px !important;
+    }
+    .gq-team .gq-line {
+        margin: 15px auto;
     }
     .gq-team .gq-team-item img {
         width: 100%;
         margin-bottom: 20px;
     }
     .gq-team .gq-team-item .gq-team-name {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     /* contact */
@@ -401,7 +414,11 @@
         padding: 60px 0 60px 0;
     }
     .gq-contact .gq-contact-title{
-        font-size: 18px;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .gq-contact .gq-contact-title p{
+        font-size: 15px;
         margin-bottom: 30px;
     }
     .gq-contact #goqual-map {
