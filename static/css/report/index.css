@@ -1,0 +1,94 @@
+/* main */
+.gq-report-main {
+    padding: 70px 0 70px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.gq-report-main-title {
+    font-size: 30px;
+}
+.gq-report-main-content {
+    font-size: 15px;
+}
+
+/* content */
+.gq-report-content {
+    padding: 0 60px 0px 60px;
+}
+.gq-report-container {
+    max-width: 900px;
+}
+.gq-report-content-item {
+    width: 100%;
+    padding: 40px 10px 40px 10px;
+    border-bottom: 1px solid #aaaaaa;
+    display: inline-block;
+}
+.gq-report-content-item .gq-report-info {
+}
+.gq-report-content-item .gq-report-info .institution {
+    font-size: 20px;
+    line-height: 1.4em;
+}
+.gq-report-content-item .gq-report-info .published {
+    font-size: 15px;
+    color: #999999;
+}
+.gq-report-content-item .gq-report-content {
+}
+.gq-report-content-item .gq-report-img {
+    width: 10%;
+    float: right;
+}
+.gq-report-content-item .gq-report-content-title {
+    font-size: 25px;
+    color: #05417f;
+    font-weight: 300;
+    line-height: 1.4em;
+}
+.gq-report-content-item .gq-report-content-summary {
+    font-size: 14px;
+    color: #4d5256;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.gq-report-content-item .gq-report-content-created {
+    font-size: 14px;
+    color: #a9afb3;
+}
+
+
+
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    .gq-report-main {
+        padding: 30px 0 30px 0;
+        border-bottom: 1px solid #eaeaea;
+    }
+    .gq-report-content-item .gq-report-info .institution {
+        font-size: 10px;
+        line-height: 1.4em;
+    }
+    .gq-report-content-item .gq-report-info .published {
+        font-size: 8px;
+        color: #999999;
+    }
+    .gq-report-content, .gq-report-info {
+        padding: 10px 2px 0px 2px;
+    }
+    .gq-report-content-item .gq-report-content-title {
+        font-size: 20px;
+    }
+    .gq-report-content-item .gq-report-content-summary {
+        font-size: 10px;
+    }
+    .gq-report-content-item .gq-report-content-created {
+        font-size: 10px;
+    }
+    .gq-report-content-item .gq-report-img {
+        width: 15%;
+    }
+    .gq-report-content-item {
+        padding: 0 5px 20px 5px;
+    }
+}
