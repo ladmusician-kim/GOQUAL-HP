@@ -74,5 +74,6 @@ $(document).ready(function () {
     }
 
     var window_height = $(window).height();
-    $('.gq-core-content').css('min-height', window_height - 210);
+    var footer_height = $('.gq-footer').outerHeight();
+    $('.gq-body-container').css('min-height', window_height - footer_height);
 });

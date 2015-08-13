@@ -1,20 +1,18 @@
-<div class="gq-cp-container">
-    <section class="gq-cp">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center gq-cp-title">
-                    <p>낭중지추[囊中之錐]처럼 우리의 재능은</p>
-                    <p>반드시 빛을 발할 것입니다.</p>
-                </div>
-                <div class="col-lg-12 text-center gq-cp-content">
-                    <p>GOQUAL은 우리의 삶을 더 편리하고</p>
-                    <p>안전하게 해줄 IoT 제품들 그리고 이를 위해 필요한</p>
-                    <p>모든 Software를 개발하는 회사로서 더 높은 Quality를 위해 노력하고 있습니다.</p>
-                </div>
+<section class="gq-cp">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center gq-cp-title">
+                <p>낭중지추[囊中之錐]처럼 우리의 재능은</p>
+                <p>반드시 빛을 발할 것입니다.</p>
+            </div>
+            <div class="col-lg-12 text-center gq-cp-content">
+                <p>GOQUAL은 우리의 삶을 더 편리하고</p>
+                <p>안전하게 해줄 IoT 제품들 그리고 이를 위해 필요한</p>
+                <p>모든 Software를 개발하는 회사로서 더 높은 Quality를 위해 노력하고 있습니다.</p>
             </div>
         </div>
-    </section>
-</div>
+    </div>
+</section>
 
 
 <section class="gq-sp">
@@ -24,11 +22,20 @@
                 <p>성장 그리고 성장...</p>
                 <p>어제보다 더 나은 오늘을 위해</p>
             </div>
-            <div class="col-lg-12 text-center gq-sp-content">
+            <div class="col-lg-12 text-center gq-sp-content gq-web-content">
                 <p>주식회사 고퀄은 중소기업청과 스마트벤처창업학교, 대구창조경제혁신센터의 도움을 받아 사업을 시작하게 되었습니다. </p>
                 <p> 그렇게 만든 제품 BlueSwitch로 글로벌 시장 진출을 위해 노력하던 중 Singapore의 Lighting Design업체인 </p>
                 <p>Illuminating Asia를 만나 MOU를 체결하고 수출을 하며, 글로벌 시장의 가능성을 보습니다. </p>
                 <p>실력, 기술성, 그리고 잠재력을 인정받아 삼성벤처투자회사로부터 투자 받았습니다. </p>
+                <br>
+                <br>
+                <p>이제 또 다시 시작입니다.</p>
+            </div>
+            <div class="col-lg-12 text-center gq-sp-content gq-mobile-content">
+                <p>주식회사 고퀄은 중소기업청과 스마트벤처창업학교, 대구창조경제혁신센터의 도움을 받아 사업을 시작하게 되었습니다.
+                그렇게 만든 제품 BlueSwitch로 글로벌 시장 진출을 위해 노력하던 중 Singapore의 Lighting Design업체인
+                Illuminating Asia를 만나 MOU를 체결하고 수출을 하며, 글로벌 시장의 가능성을 보습니다.
+                실력, 기술성, 그리고 잠재력을 인정받아 삼성벤처투자회사로부터 투자 받았습니다. </p>
                 <br>
                 <br>
                 <p>이제 또 다시 시작입니다.</p>
@@ -106,6 +113,7 @@
         <div class="row">
             <div class="gq-contact-title text-center">
                 열정이 불타오르는 곳
+                <p>놀러오세요~ 아메리카노 한잔 합시다.</p>
             </div>
             <div class="col-lg-7 gq-contact-map-wrapper">
                 <div id="goqual-map"></div>
@@ -120,6 +128,12 @@
                 </p>
                 <p class="gq-contact-category-content">
                     대구광역시 동구 동대구로 467 스마트벤처창업학교
+                </p>
+                <p class="gq-contact-category">
+                    Email :
+                </p>
+                <p class="gq-contact-category-content">
+                    contact@goqual.com
                 </p>
                 <p class="gq-contact-category">
                     Tel :

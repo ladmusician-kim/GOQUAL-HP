@@ -32,15 +32,16 @@
             }
             ?>
         </ul>
-        <div id="gq-core-content-container" class="row">
+
+        <div id="gq-core-content-container">
             <ul class="gq-core-ul">
-                <li class="gq-core-li col-lg-3">
+                <li class="gq-core-li col-lg-3 col-xs-6 col-md-3">
                 </li>
-                <li class="gq-core-li col-lg-3">
+                <li class="gq-core-li col-lg-3 col-xs-6 col-md-3">
                 </li>
-                <li class="gq-core-li col-lg-3">
+                <li class="gq-core-li col-lg-3 col-xs-6 col-md-3">
                 </li>
-                <li class="gq-core-li col-lg-3">
+                <li class="gq-core-li col-lg-3 col-xs-6 col-md-3">
                 </li>
             </ul>
         </div>

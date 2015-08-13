@@ -38,7 +38,7 @@
     color: #7b7b7b;
     font-size: 12px;
     min-height: 70px;
-    padding: 20px 0 20px 7px;
+    padding: 20px 7px 20px 7px;
     border-bottom: 1px solid #ececec;
 }
 .gq-core-ul .gq-core-li .inner .gq-core-item-container .info {
@@ -62,7 +62,7 @@
 
 /* main */
 .gq-core-main {
-    padding: 70px;
+    padding: 70px 0 70px 0;
     background: #f5f5f5;
 }
 .gq-core-main-title {
@@ -76,7 +76,6 @@
 
 /* content */
 .gq-core-content {
-    padding: 0px 60px 60px 60px;
     background: #f5f5f5;
 }
 .gq-core-category-wrapper {

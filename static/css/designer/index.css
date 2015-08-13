@@ -31,15 +31,15 @@
     color: #969696;
     font-size: 15px;
     padding: 0 0 8px 7px;
-    border-bottom: 1px solid #c5c5c5;
+    border-bottom: 1px solid #ececec;
 }
 .gq-ds-ul .gq-ds-li .inner .gq-ds-item-container .summary {
     display: block;
     color: #7b7b7b;
     font-size: 12px;
     min-height: 30px;
-    padding: 20px 0 20px 7px;
-    border-bottom: 1px solid #c5c5c5;
+    padding: 20px 7px 20px 7px;
+    border-bottom: 1px solid #ececec;
 }
 .gq-ds-ul .gq-ds-li .inner .gq-ds-item-container .info {
     padding: 10px 0 0 7px;

@@ -8,11 +8,11 @@
 
             <p class="gq-core-item-container">
                 <a href="<?php echo base_url();?>core/detail?coreid=<?php echo $item->_coreid ?>">
-                    <span class="title"><?php echo $item->title ?></span>
+                    <span class="title"><?php echo $item->title ?> | <?php echo $item->label ?></span>
                     <span class="summary"><?php echo $item->summary ?></span>
                 </a>
                 <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= site_url('core/detail?coreid='.$item->_coreid) ?>">
-                    <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?> | <?php echo $item->label ?><span class="gq-share-btn share-btn"></span></span>
+                    <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?> <span class="gq-share-btn share-btn"></span></span>
                 </a>
             </p>
         </div>
@@ -29,11 +29,11 @@
 
             <p class="gq-core-item-container">
                 <a href="<?php echo base_url();?>core/detail?coreid=<?php echo $item->_coreid ?>">
-                    <span class="title"><?php echo $item->title ?></span>
+                    <span class="title"><?php echo $item->title ?> | <?php echo $item->label ?></span>
                     <span class="summary"><?php echo $item->summary ?></span>
                 </a>
                 <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= site_url('core/detail?coreid='.$item->_coreid) ?>">
-                    <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?> | <?php echo $item->label ?><span class="gq-share-btn share-btn"></span></span>
+                    <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?> <span class="gq-share-btn share-btn"></span></span>
                 </a>
             </p>
         </div>
@@ -45,17 +45,16 @@
         ?>
         <div class="inner">
             <a href="<?php echo base_url();?>core/detail?coreid=<?php echo $item->_coreid ?>">
-                <img class="gq-core-item-img"
-                     id="<?php echo $item->_coreid ?>"
-                     src="<?php echo $item->main_img_uri?>" />
+                <img class="gq-core-item-img" src="<?php echo $item->main_img_uri?>" />
             </a>
+
             <p class="gq-core-item-container">
                 <a href="<?php echo base_url();?>core/detail?coreid=<?php echo $item->_coreid ?>">
-                    <span class="title"><?php echo $item->title ?></span>
+                    <span class="title"><?php echo $item->title ?> | <?php echo $item->label ?></span>
                     <span class="summary"><?php echo $item->summary ?></span>
                 </a>
                 <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= site_url('core/detail?coreid='.$item->_coreid) ?>">
-                    <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?> | <?php echo $item->label ?><span class="gq-share-btn share-btn"></span></span>
+                    <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?> <span class="gq-share-btn share-btn"></span></span>
                 </a>
             </p>
         </div>
@@ -67,17 +66,16 @@
         ?>
         <div class="inner">
             <a href="<?php echo base_url();?>core/detail?coreid=<?php echo $item->_coreid ?>">
-                <img class="gq-core-item-img"
-                     id="<?php echo $item->_coreid ?>"
-                     src="<?php echo $item->main_img_uri?>" />
+                <img class="gq-core-item-img" src="<?php echo $item->main_img_uri?>" />
             </a>
+
             <p class="gq-core-item-container">
                 <a href="<?php echo base_url();?>core/detail?coreid=<?php echo $item->_coreid ?>">
-                    <span class="title"><?php echo $item->title ?></span>
+                    <span class="title"><?php echo $item->title ?> | <?php echo $item->label ?></span>
                     <span class="summary"><?php echo $item->summary ?></span>
                 </a>
                 <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= site_url('core/detail?coreid='.$item->_coreid) ?>">
-                    <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?> | <?php echo $item->label ?><span class="gq-share-btn share-btn"></span></span>
+                    <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?> <span class="gq-share-btn share-btn"></span></span>
                 </a>
             </p>
         </div>

@@ -3,8 +3,11 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 col-sm-12 text-center gq-footer-text">
-                GOQUAL Inc
+                GOQUAL Inc.
             <div>
+            <div class="col-lg-12 col-sm-12 col-md-12 text-center gq-footer-copy">
+                Copyrightⓒ. 2015. GOQUAL Inc. All Rights Reserved.
+            </div>
         </div>
     </div>
 </div>
@@ -39,6 +42,11 @@ if(file_exists($filename)) {
     ?>
     <script src="/GOQUAL/<?php echo $filename; ?>"></script>
     <?php
+}
+if (strpos($filename, 'index.php')) {
+?>
+    <script src="/GOQUAL/static/js/home/index.js"></script>
+<?php
 }
 ?>
 

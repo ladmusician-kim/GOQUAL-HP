@@ -24,19 +24,23 @@ class Designer extends GQ_Controller
 
         $last_page = ceil($total_count / $per_page);
 
-        $view_data = array('items' => $items->return_body, 'page' => $page, 'per_page' => $per_page, 'last_page' => $last_page);
-        $passe_data = array (
-            'data' => $this->load->view('_PARTIAL/designer_item', $view_data, true),
-            'page' => $page,
-            'per_page' => $per_page,
-            'total_count' => $total_count,
-            'last_page' => $last_page,
-            'first_count' => $items->first_count,
-            'second_count' => $items->second_count,
-            'third_count' => $items->third_count,
-            'fourth_count' => $items->fourth_count,
-        );
+        if ($items->total_count == 0) {
+            echo json_encode($this->load->view('_PARTIAL/no_item', '', true));
+        } else {
+            $view_data = array('items' => $items->return_body, 'page' => $page, 'per_page' => $per_page, 'last_page' => $last_page);
+            $passe_data = array (
+                'data' => $this->load->view('_PARTIAL/designer_item', $view_data, true),
+                'page' => $page,
+                'per_page' => $per_page,
+                'total_count' => $total_count,
+                'last_page' => $last_page,
+                'first_count' => $items->first_count,
+                'second_count' => $items->second_count,
+                'third_count' => $items->third_count,
+                'fourth_count' => $items->fourth_count,
+            );
 
-        echo json_encode($passe_data);
+            echo json_encode($passe_data);
+        }
     }
 }

@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    var window_height = $(window).height();
+    var footer_height = $('.gq-footer').outerHeight();
+    $('.gq-body-container').css('min-height', window_height - footer_height);
+
     var page = 1;
     var per_page = 9;
     var last_page = -1;

@@ -26,6 +26,22 @@ class GQ_Controller extends CI_Controller {
         $this->load->view('_Layout/footer.php');
     }
 
+    function __get_mobile_views($viewStr, $data = null) {
+        $this->load->view('_Layout/header.php');
+
+        $this->load->view('_Layout/navbar.php');
+
+        $this->load->view('_Home/full_screen_mobile.php');
+
+        if ($data != null) {
+            $this->load->view($viewStr, $data);
+        } else {
+            $this->load->view($viewStr);
+        }
+
+        $this->load->view('_Layout/footer.php');
+    }
+
     function __get_partial_view($viewStr, $data = null, $is_value = false) {
         if ($data != null) {
             $this->load->view($viewStr, $data, $is_value);

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/static/img/gq_symbol.png" />
     <title>GOQUAL</title>
 
     <link href="/static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +36,12 @@
     <link href="/GOQUAL/<?php echo $filename; ?>" rel="stylesheet">
     <?php
     }
-    if (strpos($filename, 'home')) {
+    if (strpos($filename, 'index.php')) {
+    ?>
+    <link href="/GOQUAL/static/css/home/index.css" rel="stylesheet">
+    <?php
+    }
+    if (strpos($filename, 'index.php') || strpos($filename, 'home')) {
     ?>
     <script type="text/javascript" src="https://maps.google.com/maps/api/js?v=3.exp&region=KR"></script>
     <?php

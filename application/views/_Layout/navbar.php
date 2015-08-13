@@ -8,18 +8,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
-                <img src="<?= site_url('/static/img/home/gq_ci_black.png')?>" >
+            <a class="navbar-brand" href="<?php echo base_url() ?>home">
+                <img src="<?php echo base_url()?>static/img/home/gq_ci_black.png" >
             </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse gq-navbar-collapse" aria-expanded="false" style="height: 1px;">
             <ul class="nav navbar-nav navbar-right gq-main-menu-nav">
                 <li><a href="<?php echo base_url() ?>home">GOQUAL</a></li>
-                <li>/</li>
+                <li class="gq-web-content">/</li>
                 <li><a href="<?php echo base_url() ?>core">GOQUAL 블로그</a></li>
-                <li>/</li>
+                <li class="gq-web-content">/</li>
                 <li><a href="<?php echo base_url() ?>designer">디자인 블로그</a></li>
-                <li>/</li>
+                <li class="gq-web-content">/</li>
                 <li><a href="<?php echo base_url() ?>developer">개발 블로그</a></li>
             </ul>
         </div>

@@ -3,7 +3,7 @@
         <div class="gq-fc-top">
             <div class="pull-left">
                 <div class="gq-fc-num">
-                    01
+                    ver.2.0.1
                 </div>
             </div>
             <div class="pull-right">
@@ -23,19 +23,25 @@
                 </div>
             </div>
             <div class="pull-right text-right">
-                <img class="gq-fc-ci" src="<?=site_url('/static/img/home/gq_ci_non_color.png')?>">
-                <div class="gq-fc-contact">
-                    CONTACT US
-                </div>
+                <a id="gq-go-to-contact">
+                    <img class="gq-fc-ci" src="<?=site_url('/static/img/home/gq_ci_non_color.png')?>">
+                    <div class="gq-fc-contact">
+                        CONTACT US
+                    </div>
+                </a>
             </div>
         </div>
         <div class="gq-fc-main-wrapper">
             <div class="gq-fc-main">
-                <p>WE ARE</p>
-                <p><span>GO</span>ING TO <span>QUAL</span>ITY.</p>
-                <div class="gq-fc-label-wrapper">
-                    <span class="gq-fc-label">2015 GOQUAL</span>
-                </div>
+                <a id="gq-fc-cp-container">
+                    <p class="gq-fc-cp-we-go-for-quality">WE <span>GO</span></p>
+                    <p class="gq-fc-cp-we-go-for-quality">FOR <span>QUAL</span>ITY.</p>
+                    <p class="gq-fc-cp-goqual">DO YOU WANNA</p>
+                    <p class="gq-fc-cp-goqual"><span>GOQUAL</span></p>
+                    <div class="gq-fc-label-wrapper">
+                        <span class="gq-fc-label">2015 GOQUAL</span>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
