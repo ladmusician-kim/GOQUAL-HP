@@ -28,3 +28,31 @@
     max-width: 90%;
     margin: 3% auto 0 auto;
 }
+.gq-dev-share {
+    border: 1px solid #9a9a9a;
+    padding: 15px 0px;
+    font-size: 20px;
+    border-radius: 6px;
+    color: #999999 !important;
+}
+.gq-dev-share:hover {
+    color: #fff !important;
+    border: 1px solid #445fa7;
+    background-color: #445fa7;
+    cursor: pointer !important;
+}
+
+
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    .gq-dev-share {
+        border: 1px solid #9a9a9a;
+        padding: 15px 60px;
+        font-size: 15px;
+        color: #fff !important;
+        border: 1px solid #445fa7;
+        background-color: #445fa7;
+        cursor: pointer !important;
+    }
+}

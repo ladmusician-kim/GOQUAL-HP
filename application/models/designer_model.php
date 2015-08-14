@@ -15,7 +15,7 @@ class Designer_model extends CI_Model
     function get_by_id($designer_id)
     {
         $this->db->limit(1);
-        $this->db->select('designer._designerid, designer.title, designer.content, designer.updated, designer.isdeprecated, user.profile_uri, user.username');
+        $this->db->select('designer._designerid, designer.title, designer.summary, designer.content, designer.updated, designer.isdeprecated, user.profile_uri, user.username');
         $this->db->from('designer');
         $this->db->where('designer._designerid = ' . $designer_id);
         $this->db->where('designer.isdeprecated = false');

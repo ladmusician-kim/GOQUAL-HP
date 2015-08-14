@@ -37,6 +37,7 @@ class Report_model extends CI_Model
         $this->db->select('*');
         $this->db->from('report');
         $this->db->where('report.isdeprecated = false');
+        $this->db->order_by('_reportid', 'desc');
 
         $result = $this->db->get()->result();
 

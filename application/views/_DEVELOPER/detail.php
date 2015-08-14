@@ -13,6 +13,9 @@
             <div class="col-lg-12 gq-dev-content">
                 <?php echo $item->content ?>
             </div>
+            <a class="col-lg-12 gq-dev-share" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= site_url('developer/detail?developerid='.$item->_developerid)?>">
+                페이스북 공유하기
+            </a>
         </div>
     </div>
 </section>

@@ -6,9 +6,19 @@
                 <p>반드시 빛을 발할 것입니다.</p>
             </div>
             <div class="col-lg-12 text-center gq-cp-content">
-                <p>GOQUAL은 우리의 삶을 더 편리하고</p>
-                <p>안전하게 해줄 IoT 제품들 그리고 이를 위해 필요한</p>
-                <p>모든 Software를 개발하는 회사로서 더 높은 Quality를 위해 노력하고 있습니다.</p>
+                <p class="gq-web-content">GOQUAL은 우리의 삶을 조금 더</p>
+                <p class="gq-web-content">편리하게 만들어 줄 수 있는 제품을 만듭니다.</p>
+                <p class="gq-web-content">IoT 제품들 부터, 모바일 앱, 웹 서비스까지</p>
+                <p class="gq-web-content">익숙한 제품들을 더 훌륭하게 만드는 것</p>
+                <p class="gq-web-content">그것이 GOQUAL이 하는 일입니다.</p>
+
+                <p class="gq-mobile-content">
+                    GOQUAL은 우리의 삶을 조금 더
+                    편리하게 만들어 줄 수 있는 제품을 만듭니다.
+                    IoT 제품들 부터, 모바일 앱, 웹 서비스까지
+                    익숙한 제품들을 더 훌륭하게 만드는 것
+                    그것이 GOQUAL이 하는 일입니다.
+                </p>
             </div>
         </div>
     </div>
@@ -52,6 +62,7 @@
         <div class="row">
             <div class="col-lg-12 text-center gq-team-title">
                 36.6도의 사람들
+                <p>- 항상 공부하고, 배우며, 그렇게 발전중입니다. 함께 하실래요?? - </p>
                 <div class="gq-line"></div>
             </div>
             <div class="col-lg-3 col-sm-3 col-md-3 text-center gq-team-item">
@@ -85,7 +96,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-sm-3 col-md-3 text-center gq-team-item">
-                <img src="<?=site_url('/static/img/member/gq_team_designer.jpeg')?>">
+                <img src="<?=site_url('/static/img/member/gq_team_developer.jpeg')?>">
                 <div class="gq-team-name">
                     Inkyu YOON
                 </div>
@@ -96,7 +107,7 @@
                     "아.. 그래요? 그래요?"
                 </div>
                 <div class="gq-team-sns">
-                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100005332847290" class="gq-share-btn share-btn"></a>
+                    <a target="_blank" href="https://www.facebook.com/junghyo.yea" class="gq-share-btn share-btn"></a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-3 col-md-3 text-center gq-team-item">
@@ -125,7 +136,7 @@
         <div class="row">
             <div class="gq-contact-title text-center">
                 열정이 불타오르는 곳
-                <p>놀러오세요~ 아메리카노 한잔 합시다.</p>
+                <p>놀러오세요~ 카누 한잔 해요!</p>
             </div>
             <div class="col-lg-7 gq-contact-map-wrapper">
                 <div id="goqual-map"></div>

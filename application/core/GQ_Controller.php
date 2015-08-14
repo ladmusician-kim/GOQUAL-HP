@@ -10,7 +10,12 @@ class GQ_Controller extends CI_Controller {
     }
 
     function __get_views($viewStr, $data = null) {
-        $this->load->view('_Layout/header.php');
+        if (strpos($viewStr, 'detail')) {
+            $this->load->view('_Layout/header.php', $data);
+        } else {
+            $this->load->view('_Layout/header.php');
+        }
+
         if ($viewStr === "_Home/index") {
             $this->load->view('_Home/full_screen.php');
         }

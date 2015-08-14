@@ -5,6 +5,7 @@
                 보도자료
             </div>
             <div class="col-lg-6 gq-report-main-content">
+                더 멋진 기업으로 성장할께요! 쭈욱!
             </div>
         </div>
     </div>

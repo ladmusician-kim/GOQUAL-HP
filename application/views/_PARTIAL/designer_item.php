@@ -12,7 +12,7 @@ foreach($items['first'] as $item) {
                 <span class="summary"><?php echo $item->summary ?></span>
             </a>
             <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= site_url('designer/detail?designerid='.$item->_designerid) ?>">
-                <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?> <span class="gq-share-btn share-btn"></span></span>
+                <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?>  </span>
             </a>
         </p>
     </div>
@@ -34,7 +34,7 @@ foreach($items['second'] as $item) {
                 <span class="summary"><?php echo $item->summary ?></span>
             </a>
             <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= site_url('designer/detail?designerid='.$item->_designerid) ?>">
-                <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?> <span class="gq-share-btn share-btn"></span></span>
+                <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?>  </span>
             </a>
         </p>
     </div>
@@ -56,7 +56,7 @@ foreach($items['third'] as $item) {
                 <span class="summary"><?php echo $item->summary ?></span>
             </a>
             <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= site_url('designer/detail?designerid='.$item->_designerid) ?>">
-                <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?> <span class="gq-share-btn share-btn"></span></span>
+                <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?>  </span>
             </a>
         </p>
     </div>
@@ -78,7 +78,7 @@ foreach($items['fourth'] as $item) {
                 <span class="summary"><?php echo $item->summary ?></span>
             </a>
             <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=<?= site_url('designer/detail?designerid='.$item->_designerid) ?>">
-                <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?> <span class="gq-share-btn share-btn"></span></span>
+                <span class="info"><?php echo date ("Y-m-d",strtotime($item->updated)); ?> | <?php echo $item->username ?>  </span>
             </a>
         </p>
     </div>

@@ -34,6 +34,10 @@
     padding: 0 0 8px 7px;
     border-bottom: 1px solid #ececec;
 }
+.gq-core-ul .gq-core-li .inner .gq-core-item-container .title .category{
+    font-size: 11px;
+    color: #9a9a9a;
+}
 .gq-core-ul .gq-core-li .inner .gq-core-item-container .summary {
     display: block;
     color: #7b7b7b;
