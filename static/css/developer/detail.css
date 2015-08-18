@@ -4,8 +4,8 @@
 }
 .gq-dev .gq-dev-container {
     width: 90%;
-    max-width: 700px;
-}
+    max-width: 800px;
+    }
 .gq-dev .gq-dev-profile img {
     width: 15%;
 }
@@ -22,6 +22,7 @@
 .gq-dev .gq-dev-content {
     margin-top: 10%;
     font-size: 16px;
+    text-align: left !important;
 }
 
 .gq-dev .gq-dev-content img {
