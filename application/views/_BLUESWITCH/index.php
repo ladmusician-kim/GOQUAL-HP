@@ -4,7 +4,7 @@
             <div class="col-lg-12 bs-container">
                 <div class="bs-info">
                     <div class="title">
-                        Blue Switch
+                        <span>B</span>lue <span>S</span>witch
                     </div>
                     <div class="content">
                         <p>새로운 버전을 준비중 입니다.</p>

@@ -11,6 +11,7 @@
 .gq-bs-section .bs-container {
     display: table;
     height: 100%;
+    width: 100%;
 }
 .gq-bs-section .bs-container .bs-info{
     display: table-cell;
@@ -23,6 +24,9 @@
     color: #fff;
     line-height: 100%;
 }
+.gq-bs-section .bs-container .title span {
+    color: #3ca8db;
+}
 .gq-bs-section .bs-container .content {
     font-size: 27px;
 }
@@ -30,4 +34,17 @@
     color: #fff !important;
     margin-bottom: 0px !important;
     font-weight: 400;
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    .gq-bs-section {
+        background-position-x: 13%;
+    }
+    .gq-bs-section .bs-container .title {
+        font-size: 40px;
+    }
+    .gq-bs-section .bs-container .content {
+        font-size: 17px;
+    }
 }
