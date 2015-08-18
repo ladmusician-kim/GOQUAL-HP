@@ -16,6 +16,8 @@
             <ul class="nav navbar-nav navbar-right gq-main-menu-nav">
                 <li><a href="<?php echo base_url() ?>home">GOQUAL</a></li>
                 <li class="gq-web-content">/</li>
+                <li><a href="<?php echo base_url() ?>blueswitch">BLUESWITCH</a></li>
+                <li class="gq-web-content">/</li>
                 <li><a href="<?php echo base_url() ?>report">보도자료</a></li>
                 <li class="gq-web-content">/</li>
                 <li><a href="<?php echo base_url() ?>core">GOQUAL 블로그</a></li>
