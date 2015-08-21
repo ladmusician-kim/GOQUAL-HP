@@ -7,6 +7,10 @@ $(document).ready(function () {
     var ajax_loader = $('.gq-ajax-loader');
     var category_id = $('#categoryid').val();
 
+    var window_height = $(window).height();
+    var footer_height = $('.gq-footer').outerHeight();
+    $('.gq-body-container').css('min-height', window_height - footer_height);
+
     get_items(page, per_page);
 
     function get_items(page, perPage) {
@@ -72,11 +76,4 @@ $(document).ready(function () {
             }
         });
     }
-
-    var window_height = $(window).height();
-    var footer_height = $('.gq-footer').outerHeight();
-    $('.gq-body-container').css('min-height', window_height - footer_height);
-
-    var item_wrapper_width = $($('.gq-core-li')[0]).width();
-    
 });

@@ -1,3 +1,6 @@
+.gq-body-container {
+    background-color: #f5f5f5 !important;
+}
 .gq-core-ul {
     list-style: none;
     padding-left: 0px !important;
