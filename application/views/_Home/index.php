@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-sm-3 col-md-3 text-center gq-team-item">
-                <img src="<?=site_url('/static/img/member/gq_team_developer.jpg')?>">
+                <img src="<?=site_url('/static/img/member/gq_team_developer_01.jpeg')?>">
                 <div class="gq-team-name">
                     Dongjin KIM
                 </div>
