@@ -66,7 +66,7 @@
                 <div class="gq-line"></div>
             </div>
             <div class="col-lg-3 col-sm-3 col-md-3 text-center gq-team-item">
-                <img src="<?=site_url('/static/img/member/gq_team_ceo.jpeg')?>">
+                <img src="<?=site_url('/static/img/member/gq_team_ceo_01.jpg')?>">
                 <div class="gq-team-name">
                     Sean WOO
                 </div>
@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-sm-3 col-md-3 text-center gq-team-item">
-                <img src="<?=site_url('/static/img/member/gq_team_developer.jpeg')?>">
+                <img src="<?=site_url('/static/img/member/gq_team_developer.jpg')?>">
                 <div class="gq-team-name">
                     Dongjin KIM
                 </div>
@@ -96,7 +96,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-sm-3 col-md-3 text-center gq-team-item">
-                <img src="<?=site_url('/static/img/member/gq_team_developer.jpeg')?>">
+                <img src="<?=site_url('/static/img/member/gq_team_developer_02.jpg')?>">
                 <div class="gq-team-name">
                     Inkyu YOON
                 </div>
@@ -107,11 +107,11 @@
                     "아.. 그래요? 그래요?"
                 </div>
                 <div class="gq-team-sns">
-                    <a target="_blank" href="https://www.facebook.com/junghyo.yea" class="gq-share-btn share-btn"></a>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100005332847290&fref=ts" class="gq-share-btn share-btn"></a>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-3 col-md-3 text-center gq-team-item">
-                <img src="<?=site_url('/static/img/member/gq_team_designer.jpeg')?>">
+                <img src="<?=site_url('/static/img/member/gq_team_designer_01.jpg')?>">
                 <div class="gq-team-name">
                     Junghyo YEA
                 </div>
