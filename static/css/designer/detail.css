@@ -8,6 +8,7 @@
 }
 .gq-ds .gq-ds-profile img {
     width: 15%;
+    border-radius: 6px;
 }
 .gq-ds .gq-ds-user {
     margin-top: 30px;

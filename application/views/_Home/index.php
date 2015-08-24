@@ -35,7 +35,7 @@
             <div class="col-lg-12 text-center gq-sp-content gq-web-content">
                 <p>주식회사 고퀄은 중소기업청과 스마트벤처창업학교, 대구창조경제혁신센터의 도움을 받아 사업을 시작하게 되었습니다. </p>
                 <p> 그렇게 만든 제품 BlueSwitch로 글로벌 시장 진출을 위해 노력하던 중 Singapore의 Lighting Design업체인 </p>
-                <p>Illuminating Asia를 만나 MOU를 체결하고 수출을 하며, 글로벌 시장의 가능성을 보습니다. </p>
+                <p>Illuminating Asia를 만나 MOU를 체결하고 수출을 하며, 글로벌 시장의 가능성을 보았습니다. </p>
                 <p>실력, 기술성, 그리고 잠재력을 인정받아 삼성벤처투자회사로부터 투자 받았습니다. </p>
                 <br>
                 <br>
@@ -44,7 +44,7 @@
             <div class="col-lg-12 text-center gq-sp-content gq-mobile-content">
                 <p>주식회사 고퀄은 중소기업청과 스마트벤처창업학교, 대구창조경제혁신센터의 도움을 받아 사업을 시작하게 되었습니다.
                 그렇게 만든 제품 BlueSwitch로 글로벌 시장 진출을 위해 노력하던 중 Singapore의 Lighting Design업체인
-                Illuminating Asia를 만나 MOU를 체결하고 수출을 하며, 글로벌 시장의 가능성을 보습니다.
+                Illuminating Asia를 만나 MOU를 체결하고 수출을 하며, 글로벌 시장의 가능성을 보았습니다.
                 실력, 기술성, 그리고 잠재력을 인정받아 삼성벤처투자회사로부터 투자 받았습니다. </p>
                 <br>
                 <br>

@@ -8,6 +8,7 @@
 }
 .gq-core .gq-core-profile img {
     width: 15%;
+    border-radius: 6px;
 }
 .gq-core .gq-core-user {
     margin-top: 30px;

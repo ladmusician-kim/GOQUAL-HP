@@ -8,6 +8,7 @@
     }
 .gq-dev .gq-dev-profile img {
     width: 15%;
+    border-radius: 6px;
 }
 .gq-dev .gq-dev-user {
     margin-top: 30px;

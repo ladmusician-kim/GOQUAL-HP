@@ -25,6 +25,7 @@
 }
 .gq-dev-content-item .gq-dev-img {
     width: 10%;
+    border-radius: 6px;
     float: right;
 }
 .gq-dev-content-item .gq-dev-content-title {
@@ -74,6 +75,7 @@
     }
     .gq-dev-content-item .gq-dev-img {
         width: 15%;
+        border-radius: 6px;
     }
     .gq-dev-content-item {
         padding: 20px 5px 20px 5px;
