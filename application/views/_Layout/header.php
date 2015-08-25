@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-
-
-
+    <title>GOQUAL</title>
+    <meta name="keywords" content="블루투스,블루투스4.0,IOT,사물인터넷,홈네트워크,smart,home,smarthome,스위치,switch,control,컨트롤,조명제어,조명,제어" />
+    <meta name="description" content="사물인터넷, 홈네트워크, 스마트 스위치, 스마트 홈, 조명제어, 안드로이드 조명제어, 아이폰 조명제어, IOT" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/static/img/gq_symbol.png" />
-    <title>GOQUAL</title>
 
     <link href="/static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo base_url()?>static/css/common.css" rel="stylesheet">
